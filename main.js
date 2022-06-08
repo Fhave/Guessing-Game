@@ -19,6 +19,7 @@ function guess(range) {
     guess(range)
   }else{
     console.log("Wrong");
+    console.log("The guessed number is " +random);
     var finalScore = score;
     console.log("\n"+"Your Final Score: "+finalScore);
   }
